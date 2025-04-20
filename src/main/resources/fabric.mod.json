@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "effectpinger",
+	"version": "${version}",
+	"name": "effectpinger",
+	"description": "Plays a sound when an effect is about to run out",
+	"authors": [
+		"_Skilltissue"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/effectpinger/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"skilltissue.effectpinger.effectpinger"
+		],
+		"modmenu": [
+			"skilltissue.effectpinger.config.config"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
