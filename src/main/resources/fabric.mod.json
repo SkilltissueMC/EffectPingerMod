@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "effectpinger",
 	"version": "${version}",
-	"name": "effectpinger",
+	"name": "Effectpinger",
 	"description": "Plays a sound when an effect is about to run out",
 	"authors": [
 		"_Skilltissue"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/user/Skilltissue",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/SkilltissueMC/EffectPingerMod"
 	},
 	"license": "MIT",
 	"icon": "assets/effectpinger/icon.png",
@@ -25,6 +25,6 @@
 	"depends": {
 		"fabric-api": "*",
 		"fabricloader": ">=0.16",
-		"midnightlib":">=1.7"
+		"midnightlib":">=1.7.2"
 	}
 }
